@@ -1,3 +1,9 @@
+# revision 20843
+# category Package
+# catalog-ctan /macros/latex/contrib/lpic
+# catalog-date 2010-12-23 21:19:38 +0100
+# catalog-license lppl1.3
+# catalog-version 0.8
 Name:		texlive-lpic
 Version:	0.8
 Release:	1
@@ -48,6 +54,7 @@ adjustment of positions of the annotations.
 %doc %{_texmfdistdir}/doc/latex/lpic/instructions-differential.pdf
 %doc %{_texmfdistdir}/doc/latex/lpic/instructions.pdf
 %doc %{_texmfdistdir}/doc/latex/lpic/instructions.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ adjustment of positions of the annotations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

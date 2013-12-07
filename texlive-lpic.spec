@@ -6,7 +6,7 @@
 # catalog-version 0.8
 Name:		texlive-lpic
 Version:	0.8
-Release:	4
+Release:	5
 Summary:	Put LaTeX material over included graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lpic

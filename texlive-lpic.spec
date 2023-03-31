@@ -1,6 +1,6 @@
 Name:		texlive-lpic
 Version:	20843
-Release:	1
+Release:	2
 Summary:	Put LaTeX material over included graphics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lpic

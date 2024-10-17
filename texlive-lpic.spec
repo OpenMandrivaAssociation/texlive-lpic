@@ -3,7 +3,7 @@ Version:	20843
 Release:	2
 Summary:	Put LaTeX material over included graphics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lpic
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/lpic
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lpic.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lpic.doc.r%{version}.tar.xz
